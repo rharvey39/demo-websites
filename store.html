@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grandson | store</title>
+        <!--TODO: edit meta-->
+        <meta name="description" content="This is the description">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/store.js"></script>
+    </head>
+    <body>
+        <header>
+            <nav class="main_nav nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="store.html">Store</a></li>
+                    <li><a href="tours.html">Tour</a></li>
+                </ul>
+            </nav>
+            <h1 class="artist_name artist_name_lg">
+                <div class="example-one" data-text="music">music</div>
+            </h1>
+    
+        </header>
+
+ 
+        <section class="container container_section">
+            <div class="shop_items">
+            <div class="shop_item">
+                <div>
+                    <span class="shop_item_title">Album 1</span>
+                </div>
+                <img class="shop_item_img" src="images/album.jpg" width="308">
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$19.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop_item">
+                <div>
+                    <span class="shop_item_title">Album 2</span>
+                </div>
+                <img class="shop_item_img" src="images/album2.jpg" width="308">
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$19.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop_item">
+                <div>
+                    <span class="shop_item_title">Album 3</span>
+                </div>
+                <img class="shop_item_img" src="images/album3.jpg" width="308">
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$19.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="shop_item">
+                <div>
+                    <span class="shop_item_title">Album 4</span>
+                </div>
+                <img class="shop_item_img" src="images/album4.jpg"  width="308">
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$19.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <h1 class="artist_name artist_name_lg">
+            <div class="example-one" data-text="merch">merch</div>
+        </h1>
+
+        <section class="container container_section">
+            <div class="shop_items">
+                <div class="shop_item">
+                    <span class="shop_item_title">Mask</span>
+                <img class="shop_item_img" src="images/merch1.jpg">
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$9.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+                </div>
+                <div class="shop_item">
+                    <span class="shop_item_title">Sweatshirt</span>
+                <img class="shop_item_img" src="images/merch2.jpg"> 
+                <div class="shop_item_details">
+                    <span class="shop_item_price">$49.99</span>
+                    <button class="btn shop_item_btn" role="button">ADD TO CART</button>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <h1 class="artist_name artist_name_lg">
+            <div class="example-one" data-text="cart">cart</div>
+        </h1>
+
+        <section class="container container_section">
+            <div class="cart_row">
+                <span class="cart_item cart_header cart_column">Item</span>
+                <span class="cart_price cart_header cart_column">Price</span>
+                <span class="cart_quantity cart_header cart_column">Quantity</span>
+            </div>
+            <div class="cart_items">
+            <div class="cart_row">
+                <div class="cart_item cart_column">
+                <img class="cart_item_img" src="images/merch2.jpg">
+                <span class="cart_item_title">Sweatshirt</span>
+            </div>
+                <span class="cart_price cart_column">$49.99</span>
+                <div class="cart_quantity cart_column">
+                <input class="cart_quantity_input" type="number" value="1">
+                <button class="btn btn_danger" role="button">Remove</button>
+            </div>
+            </div>
+            <div class="cart_row">
+                <div class="cart_item cart_column">
+                <img class="cart_item_img" src="images/album3.jpg">
+                <span class="cart_item_title">Album 3</span>
+           </div>
+                <span class="cart_price cart_column">$19.99</span>
+                <div class="cart_quantity cart_column">
+                <input class="cart_quantity_input" type="number" value="1">
+                <button class="btn btn_danger" role="button">Remove</button>
+            </div>
+        </div>
+    </div>
+        <div class="cart_total">
+                <span class="cart_total_title">Total</span>
+                <span class="cart_total_price">$69.98</span>
+            </div>
+          
+                <button class=" btn_purchase btn" role="button">Purchase</button>
+    
+        </section>
+
+        <footer class="main_footer">
+            <div class="container main_footer_container">
+            <ul class="nav footer_nav">
+                <li>
+                    <a href="https://www.youtube.com/channel/UC22gMfQuek7x6mdsoJ1qFSQ" target="_blank">
+                        <img src="images/youtube.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://open.spotify.com/artist/4ZgQDCtRqZlhLswVS6MHN4" target="_blank">
+                        <img src="images/spotify.jpg">
+                    </a>
+                </li>
+            </ul>
+            </div>
+        </footer>
+    </body>
+</html>
